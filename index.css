@@ -1,0 +1,68 @@
+/* Fill CSS here */
+body{
+    text-align: center;
+    font-family:  Times, serif;
+}
+
+h1{
+    /* border: 1px solid black; */
+    text-align: center;
+    color: #2363A2;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    text-align: left;
+    align-items: left;
+    font-family:'Times New Roman', Times, serif;
+    /* border: 1px solid black; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    height: 500px;
+    width: 300px;
+    padding-left: 18px;
+}
+
+form input, form select, form textarea,form label {
+    margin-bottom: 15px; 
+    margin-top: 5px;
+    margin-right: 10px; 
+}
+
+form label{
+    font-weight: bold;
+}
+
+table {
+    width: 80%;
+    /* border-collapse: collapse; */
+}
+
+th{
+    /* border: 1px solid red; */
+    /* padding: 2px; */
+    text-align: center;
+    background: #2363A2;
+    color: white;
+    font-size: 12px;
+    height: 30px;
+    /* width: auto; */
+}
+
+
+input, select{
+    width: 270px;
+    height: 25px;
+}
+
+#submit{
+    border-radius: 15px;
+    background: #2363A2;
+    color: white;
+    height: 35px;
+}
